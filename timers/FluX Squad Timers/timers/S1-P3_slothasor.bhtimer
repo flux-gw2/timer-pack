@@ -1,0 +1,151 @@
+{
+  "id": "flux.squad.jihong.slothasor",
+  "name": "FluX Squad - Jihong\nW2 - Slothasor Volatile Poison",
+  "category": "FluX Squad - Jihong",
+  "description": "FluX Squad timer for Jihong - W2 - Slothasor Volatile Poison",
+  "author": "FluX Static",
+  "icon": "Assets/Raids/Slothasor.png",
+  "map": 1149,
+  "reset": {
+    "position": [
+      243.5481,
+      235.6277,
+      0.3457618
+    ],
+    "radius": 15,
+    "requireEntry": true,
+    "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Slothasor",
+      "start": {
+        "position": [
+          222.2912,
+          40.32179,
+          21.4772
+        ],
+        "antipode": [
+          189.728,
+          11.22259,
+          -6.216837
+        ],
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [
+          199.9,
+          -11.3,
+          0.6
+        ],
+        "radius": 75,
+        "requireEntry": true,
+        "requireOutOfCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Timer: Global Mechanics",
+          "fillColor": [
+            194,
+            45,
+            45,
+            1
+          ],
+          "alertDuration": 4,
+          "timestamps": [
+            0
+          ],
+          "icon": "Assets/Raids/Slothasor.png"
+        },
+        {
+          "warning": "Next: Volatile Poison",
+          "fillColor": [
+            141,
+            156,
+            14,
+            0
+          ],
+          "warningDuration": 21,
+          "timestamps": [
+            25
+          ],
+          "icon": "Assets/Raids/Poison.png"
+        },
+        {
+          "warning": "Next: Volatile Poison",
+          "fillColor": [
+            141,
+            156,
+            14,
+            0
+          ],
+          "warningDuration": 17,
+          "timestamps": [
+            50,
+            75,
+            100,
+            125,
+            150,
+            175,
+            200,
+            225,
+            250,
+            275,
+            300,
+            325,
+            350,
+            375,
+            400,
+            425
+          ],
+          "icon": "Assets/Raids/Poison.png"
+        },
+        {
+          "warning": "Poison off group!",
+          "fillColor": [
+            141,
+            156,
+            14,
+            0
+          ],
+          "warningDuration": 8,
+          "timestamps": [
+            33,
+            58,
+            83,
+            108,
+            133,
+            158,
+            183,
+            208,
+            233,
+            258,
+            283,
+            308,
+            333,
+            358,
+            383,
+            408,
+            433
+          ],
+          "icon": "Assets/Raids/Purge.png"
+        },
+        {
+          "alert": "Enrage",
+          "fillColor": [
+            194,
+            45,
+            45,
+            0
+          ],
+          "alertDuration": 5,
+          "timestamps": [
+            420
+          ],
+          "icon": "Assets/Raids/Slothasor.png"
+        }
+      ]
+    }
+  ]
+}

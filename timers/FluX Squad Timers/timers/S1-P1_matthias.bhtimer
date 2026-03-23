@@ -1,0 +1,114 @@
+{
+  "id": "flux.squad.lotus.matthias",
+  "name": "FluX Squad - Lotus\nW2 - Matthias Corruption",
+  "category": "FluX Squad - Lotus",
+  "description": "FluX Squad timer for Lotus - W2 - Matthias Corruption",
+  "author": "FluX Static",
+  "icon": "Assets/Raids/Matthias.png",
+  "map": 1149,
+  "reset": {
+    "position": [
+      -150.5,
+      149.9,
+      131.5
+    ],
+    "radius": 35,
+    "requireDeparture": true
+  },
+  "phases": [
+    {
+      "name": "All Timers",
+      "start": {
+        "position": [
+          -150.5,
+          149.9,
+          131.5
+        ],
+        "radius": 35,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "alerts": [
+        {
+          "alert": "Timer: Global Mechanics",
+          "fillColor": [
+            194,
+            45,
+            45,
+            0
+          ],
+          "alertDuration": 4,
+          "timestamps": [
+            0
+          ],
+          "icon": "Assets/Raids/Matthias.png"
+        },
+        {
+          "warning": "Next: Corruption",
+          "alert": "Move",
+          "fillColor": [
+            173,
+            52,
+            52,
+            0
+          ],
+          "warningDuration": 5,
+          "alertDuration": 3,
+          "timestamps": [
+            5
+          ],
+          "icon": "Assets/Raids/Corruption.png"
+        },
+        {
+          "warning": "Next: Corruption",
+          "alert": "Move",
+          "fillColor": [
+            173,
+            52,
+            52,
+            0
+          ],
+          "warningDuration": 27,
+          "alertDuration": 3,
+          "timestamps": [
+            35,
+            65,
+            95,
+            125,
+            155,
+            185,
+            215,
+            245,
+            275,
+            305,
+            335,
+            365,
+            395,
+            425,
+            455,
+            485,
+            515,
+            545,
+            575,
+            605
+          ],
+          "icon": "Assets/Raids/Corruption.png"
+        },
+        {
+          "alert": "Enrage",
+          "fillColor": [
+            194,
+            45,
+            45,
+            0
+          ],
+          "alertDuration": 5,
+          "timestamps": [
+            600
+          ],
+          "icon": "Assets/Raids/Matthias.png"
+        }
+      ]
+    }
+  ]
+}

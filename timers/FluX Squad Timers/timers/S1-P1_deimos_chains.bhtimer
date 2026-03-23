@@ -1,0 +1,60 @@
+{
+  "id": "flux.squad.lotus.deimos_chains",
+  "name": "FluX Squad - Lotus\nW4 - Deimos Chains",
+  "category": "FluX Squad - Lotus",
+  "description": "FluX Squad timer for fast Deimos chains break",
+  "author": "FluX Static",
+  "icon": "Assets/Raids/Deimos.png",
+  "map": 1188,
+  "reset": {
+    "position": [
+      -123.2258,
+      126.8591,
+      129.5106
+    ],
+    "radius": 15,
+    "requireEntry": true,
+    "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "Deimos - Break Chains",
+      "start": {
+        "position": [
+          -214.518,
+          78.521,
+          101.924
+        ],
+        "radius": 999,
+        "requireEntry": true,
+        "requireCombat": true
+      },
+      "finish": {
+        "position": [
+          -214.518,
+          78.521,
+          101.924
+        ],
+        "radius": 999,
+        "requireEntry": true,
+        "requireOutOfCombat": true
+      },
+      "alerts": [
+        {
+          "warning": "Break chains in ...",
+          "fillColor": [
+            202,
+            175,
+            92,
+            0
+          ],
+          "warningDuration": 12,
+          "timestamps": [
+            20
+          ],
+          "icon": "Assets/Raids/Deimos.png"
+        }
+      ]
+    }
+  ]
+}
